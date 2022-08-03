@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalizer -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="hdr">
+      <div class="container container-hdr">
+        <nav class="nav">
+          <!--Brand Logo-->
+          <a href="" class="hdr-logo"
+            >Web<span class="black-logo link">Studio</span></a
+          >
+          <!--List of navigation links-->
+          <ul class="nav-list">
+            <li class="item">
+              <a href="./index.html" class="nav-link link">Студія</a>
+            </li>
+            <li class="item">
+              <a href="" class="nav-link-current link">Портфоліо</a>
+            </li>
+            <li class="item"><a href="" class="nav-link link">Контакти</a></li>
+          </ul>
+        </nav>
+        <!--Contacts-->
+        <ul class="header-contacts">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contacts-link link"
+              ><svg class="icon-envelope" width="16" height="12">
+                <use href="./images/icons_svg/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contacts-link link"
+              ><svg class="icon-smartphone" width="10" height="16">
+                <use href="./images/icons_svg/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Portfolio navgation-->
+      <section class="prtf">
+        <div class="container">
+          <h1 hidden>Готовые проекты</h1>
+          <ul class="prtf-list list">
+            <li class="prtf-list-item">
+              <button type="button" class="prtf-btn-act prtf-btn-list">
+                Все
+              </button>
+            </li>
+            <li class="prtf-list-item">
+              <button type="button" class="prtf-btn prtf-btn-list">
+                Веб-сайти
+              </button>
+            </li>
+            <li class="prtf-list-item">
+              <button type="button" class="prtf-btn prtf-btn-list">
+                Додатки
+              </button>
+            </li>
+            <li class="prtf-list-item">
+              <button type="button" class="prtf-btn prtf-btn-list">
+                Дизайн
+              </button>
+            </li>
+            <li class="prtf-list-item">
+              <button type="button" class="prtf-btn prtf-btn-list">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+          <!--Examples of works-->
+          <ul class="examples-list list">
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio1.jpg"
+                    alt="открытый ноутбук"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Технокряк</h2>
+                  <p class="exampl-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio2.jpg"
+                    alt="два баскетболиста в прыжке"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="exampl-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio3.jpg"
+                    alt="логотип ресторана"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Ресторан Seafood</h2>
+                  <p class="exampl-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio4.jpg"
+                    alt="полноразмерные наушники"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Проєкт Prime</h2>
+                  <p class="exampl-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio5.jpg"
+                    alt="две коробки белого и коричневого цвета"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Проєкт Boxes</h2>
+                  <p class="exampl-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio6.jpg"
+                    alt="монитор компании Apple"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Inspiration has no Borders</h2>
+                  <p class="exampl-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio7.jpg"
+                    alt="открытая книга"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Видання Limited Edition</h2>
+                  <p class="exampl-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio81.jpg"
+                    alt="бирка с названием бренда"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Проєкт LAB</h2>
+                  <p class="exampl-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link example-link">
+                <div class="example-overlay">
+                  <img
+                    src="./images/portfolio9.jpg"
+                    alt="человек печатает на комп'ютере"
+                    width="370"
+                  />
+                  <p class="text-overlay">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="exampl-text-group">
+                  <h2 class="exampl-title">Growing Business</h2>
+                  <p class="exampl-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="ftr">
+      <div class="container ftr-container">
+        <!--Brand Logo-->
+        <div class="ftr-address-box">
+          <a href="" class="ftr-logo link"
+            >Web<span class="white-logo link">Studio</span></a
+          >
+          <address class="addr">
+            <ul class="addr-list list">
+              <li class="item">
+                <a
+                  class="addr-loc link"
+                  href="https://goo.gl/maps/46HjrAHxcbsHxjKQ8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="addr-link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="addr-link link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!-- Social links -->
+        <div class="ftr-social-box">
+          <p class="ftr-text">ПРИЄДНУЙТЕСЬ</p>
+          <ul class="ftr-social">
+            <li class="item">
+              <a href="" class="ftr-social-link">
+                <svg class="icon-ftr" width="20" height="20">
+                  <use
+                    href="./images/icons_svg/sprite.svg#icon-instagram-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="ftr-social-link">
+                <svg class="icon-ftr" width="20" height="20">
+                  <use
+                    href="./images/icons_svg/sprite.svg#icon-twitter-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="ftr-social-link">
+                <svg class="icon-ftr" width="20" height="20">
+                  <use
+                    href="./images/icons_svg/sprite.svg#icon-facebook--footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="ftr-social-link">
+                <svg class="icon-ftr" width="20" height="20">
+                  <use
+                    href="./images/icons_svg/sprite.svg#icon-linkedin-footer"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Subscription Form-->
+        <form class="sbscr-form">
+          <strong class="sbscr-title">Підпишіться на розсилку</strong>
+          <div class="sbscr-form-container">
+            <label class="sbscr-input-wrap">
+              <input
+                class="sbscr-input"
+                type="email"
+                name="email"
+                placeholder="youremail@mail.com"
+              />
+              <span class="sbscr-label">E-mail</span>
+            </label>
+            <button class="sbscr-btn" type="submit">
+              <p class="sbscr-btn-text">Підписатись</p>
+              <svg class="sbscr-btn-icon" width="24" height="24">
+                <use
+                  href="./images/icons_svg/sprite.svg#icon-icon-ftr-sbscr"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
