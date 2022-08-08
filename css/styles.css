@@ -1,29 +1,7 @@
-:root{
-    /* fonts */
-    --main-font: Roboto, sans-serif;
-    --secondary-font: Raleway, sans-serif;
-    /* main colors */
-    --main-txt-cl: #212121;
-    --secondary-txt-cl: #757575;
-    --special-txt-cl: #2196F3;
-    /* bg colors */
-    --light-bg-clr: #E5E5E5;
-    --grey-bg-color: #F5F4FA;
-    --black-bg-color: #2F303A;
-    /* timing of animation */
-    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    --anim-fast: 250ms;
-}
-
-body{
-    font-family: var(--main-font);
-    color: var(--main-txt-cl)
-}
-
 
 /* Reset styles start */
 
-a {
+/* a {
     text-decoration: none;
     color: currentColor;
 }
@@ -47,7 +25,7 @@ p {
 
 img{
     display: block;
-}
+} */
 /* .link {
     text-decoration: none;
     color: currentColor;
@@ -62,19 +40,31 @@ img{
 /* Base Styles */
 /*  */
 
-.container{
+/* .container{
     width: 1200px;
     padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
+/* .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} */
 
 /*  */
 /* Header */
 /*  */
 
-.hdr{
+/* .hdr{
     border-bottom: 1px solid #ECECEC ;
 }
 
@@ -85,9 +75,9 @@ img{
 .hdr__nav{
     margin-right: auto;
     display: flex;
-}
+} */
 
-.logo {
+/* .logo {
     display: block;
 
     font-family: var(--secondary-font);
@@ -96,20 +86,20 @@ img{
     line-height: 1.13;
     letter-spacing: 0.03em;
     color: var(--special-txt-cl);
-}
+} */
 
-.hdr__logo {
+/* .hdr__logo {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
+} */
 
-.logo__text--black{
+/* .logo__text--black{
     color: var(--main-txt-cl);
-}
+} */
 
 
-.hdr__list {
+/* .hdr__list {
     display: flex;
     align-items: center;
 }
@@ -152,9 +142,9 @@ img{
 
     position: absolute;
     bottom: 0;
-}
+} */
 
-.contacts{
+/* .contacts{
     display: flex;
     align-items: center;
 }
@@ -190,7 +180,7 @@ img{
 .contacts__icon {
     --icon-color: currentColor;
     margin-right: 10px;
-}
+} */
 
 /*  */
 /* Footer */
@@ -216,9 +206,9 @@ img{
     margin-bottom: 20px;
 }
 
-.logo__text--white{
+/* .logo__text--white{
     color:#FFFFFF;
-}
+} */
 
 .addrs__item:not(:last-child){
     margin-bottom: 9px;
@@ -326,8 +316,8 @@ img{
 }
 
 .sbscr__input-wrap{
-    display: flex;
-    gap: 10px;
+    /* display: flex;
+    gap: 10px; */
     position: relative;
 }
 
