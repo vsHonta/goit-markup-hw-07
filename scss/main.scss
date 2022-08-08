@@ -2,10 +2,17 @@
 @import './base/base';
 @import "./base/reset";
 // Utils
-@import './utils/_visually-hidden';
+@import './utils/visually-hidden';
+@import './utils/variables';
 // Components
 @import './components/container';
 @import './components/logo';
+@import './components/button';
 // Layout
 @import './layout/header';
 @import './layout/contacts';
+@import './layout/footer';
+@import './layout/address';
+@import './layout/social-networks';
+@import './layout/subscription';
+

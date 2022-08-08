@@ -186,7 +186,7 @@ img{
 /* Footer */
 /*  */
 
-.ftr{
+/* .ftr{
     background-color: var(--black-bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
@@ -199,18 +199,18 @@ img{
 
 .ftr__addrs-box{
     margin-right: 70px;
-}
+} */
 
-.addrs-box__logo{
+/* .ftr__logo{
     display: block;
     margin-bottom: 20px;
-}
+} */
 
 /* .logo__text--white{
     color:#FFFFFF;
 } */
 
-.addrs__item:not(:last-child){
+/* .addrs__item:not(:last-child){
     margin-bottom: 9px;
 }
 
@@ -244,15 +244,15 @@ img{
 
 .addr-list{
     min-width: 231px;
-}
+} */
 
 /* Social Network Links */
 
-.ftr__socials-box{
+/* .ftr__socials-box{
     margin-right: 93px;
 }
 
-.socials-box__text{
+.ftr__appeal{
     color: #FFFFFF;
 
     font-weight: 700;
@@ -293,12 +293,12 @@ img{
 
 .socials__icon{
     --icon-ftr-color: currentColor;
-}
+} */
 
 
 /* Subscription Form */
 
-.sbscr__title{
+/* .sbscr__title{
     display: block;
     margin-bottom: 20px;
 
@@ -316,8 +316,6 @@ img{
 }
 
 .sbscr__input-wrap{
-    /* display: flex;
-    gap: 10px; */
     position: relative;
 }
 
@@ -362,13 +360,13 @@ img{
 .sbscr__input:hover::placeholder,
 .sbscr__input:focus::placeholder {
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
-.btn{
+/* .btn{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     padding: 0;
     border: 0;
@@ -385,15 +383,15 @@ img{
     background: var(--special-txt-cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+} */
 
-.sbscr__btn{
+/* .sbscr__btn{
     gap: 10px;
-}
+} */
 
-.btn:hover, .btn:focus{
+/* .btn:hover, .btn:focus{
     background-color:#188CE8
-}
+} */
 
 
 /*  */
@@ -418,7 +416,7 @@ img{
     padding-bottom: 200px;
 }
 
-.headline{
+.order__headline{
     margin-bottom: 30px;
 
     font-weight: 900;
@@ -431,10 +429,12 @@ img{
 }
 
 .order__button {
-    border: 0;
-    padding: 10px 32px;
     margin: 0 auto;
-    min-width: 200px;
+    display: flex;
+    width: 216px;
+    /* border: 0; */
+    /* padding: 10px 32px; */
+    /* min-width: 216px;
     min-height: 50px;
     display: flex;
     align-items: center;
@@ -449,10 +449,7 @@ img{
     background: #2196F3;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    transition: background-color var(--anim-fast) var(--timing-function);
+    border-radius: 4px; */
 }
 
 .order__button:hover, .order__button:focus {

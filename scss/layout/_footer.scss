@@ -1,0 +1,19 @@
+.ftr {
+    background-color: var(--black-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ftr__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.ftr__addrs-box {
+    margin-right: 70px;
+}
+
+.ftr__logo {
+    display: block;
+    margin-bottom: 20px;
+}

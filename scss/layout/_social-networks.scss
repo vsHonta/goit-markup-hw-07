@@ -1,0 +1,46 @@
+.ftr__socials-box {
+    margin-right: 93px;
+}
+
+.ftr__appeal {
+    color: #FFFFFF;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials__item {
+    display: flex;
+}
+
+.socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+
+    min-width: 44px;
+    min-height: 44px;
+
+    transition: background-color var(--anim-fast) var(--timing-function);
+
+    &:hover, &:focus{
+        background-color: var(--special-txt-cl);
+    }
+}
+
+.socials__icon {
+    --icon-ftr-color: currentColor;
+}
