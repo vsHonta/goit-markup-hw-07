@@ -35,11 +35,10 @@
         color: transparent;
         transition: var(--anim-fast) var(--timing-function);
     }
-}
 
-.sbscr__input:hover::placeholder,
-.sbscr__input:focus::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    &:hover::placeholder, &:focus::placeholder{
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 .sbscr__label {
@@ -54,11 +53,11 @@
 
     transition: opacity var(--anim-fast) var(--timing-function);
 
-        .sbscr__input:hover+&,
-        .sbscr__input:focus+&,
-        .sbscr__input:not(:placeholder-shown)+&{
-                opacity: 0;
-        }
+    .sbscr__input:hover+&,
+    .sbscr__input:focus+&,
+    .sbscr__input:not(:placeholder-shown)+&{
+            opacity: 0;
+    }
 }
 
 .sbscr__btn {
